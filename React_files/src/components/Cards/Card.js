@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import "./Card.css";
 
-const Card = ({onWasteTypeChange,onWasteWeightChange,handleClick,waste}) => {	
-		return (
+const Card = ({onWasteTypeChange,onWasteWeightChange,handleClick,waste}) =>  (
 			<div className="tc pa2 ma1 bw2 shadow-5 trash-dump-card">
 				<input
 					className="pa2 w-20 waste-name"
@@ -32,7 +31,7 @@ const Card = ({onWasteTypeChange,onWasteWeightChange,handleClick,waste}) => {
 				</button>
 			</div>
 		);
-	}
+	
 
 
 export default Card;
